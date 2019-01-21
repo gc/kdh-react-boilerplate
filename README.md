@@ -6,10 +6,14 @@ This is a simple, barebones example of setting up a dashboard with KDH using Rea
 
 1. Install and Run
 ```bash
-yarn install && yarn start
+cd kdh-react-boilerplate
+yarn install
+yarn start
 ```
 
-2. (OPTIONAL: you can also use your own bot) Clone `gc/kdh-react-boilerplate-bot`, and
+2. Either clone the boilerplate-bot, or setup your own bot with KDH (use the boilerplate bot as a guide)
+
+To setup the boilerplate bot: Clone `gc/kdh-react-boilerplate-bot`, and
 then put your token and client secret in `config.template.js`,
 rename it to `config.js`. Run the bot with: ```
 npm install && node bot```
